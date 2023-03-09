@@ -95,7 +95,7 @@ app.post("/",function(req,res){
     }
 
     // console.log(add); 
-    //res.render("list",{newListItem:item}); //this not work because of every day in todo list not add listitem than only current data can add item in todo list than get request in res.render("list",{kindofDay:day,newListItem:item}); and post request is redirect to get request than item var can globle varible
+    //res.render("list",{newListItem:item}); //this not work because of every day in todo list not add listitem than only current data can add item in todo list than get request in res.render("list",{kindofDay:day,newListItem:item}); and post request is redirect to get request than item var can globle varible // adjfakdskf
 
 })
 
